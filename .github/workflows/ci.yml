@@ -10,8 +10,8 @@ permissions:
 
 jobs:
   test:
-    # ci-workflows v1.0.0-initial
-    uses: img2threejs/ci-workflows/.github/workflows/python-ci.yml@66e4071913652d7ce9e0ad66709a5e4e66497e0d
+    # ci-workflows v1.1.0
+    uses: img2threejs/ci-workflows/.github/workflows/python-ci.yml@dd3a7730cacb6ab00cc853be606ce72de389a54c
     with:
       python-version: "3.10"
       test-command: python3 -m unittest discover -s forge/tests

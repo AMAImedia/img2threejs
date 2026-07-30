@@ -9,8 +9,8 @@ permissions:
 
 jobs:
   release:
-    # ci-workflows v1.0.0-initial. Update this SHA through a reviewed PR.
-    uses: img2threejs/ci-workflows/.github/workflows/governed-tag-release.yml@66e4071913652d7ce9e0ad66709a5e4e66497e0d
+    # ci-workflows v1.1.0. Update this SHA through a reviewed PR.
+    uses: img2threejs/ci-workflows/.github/workflows/governed-tag-release.yml@dd3a7730cacb6ab00cc853be606ce72de389a54c
     with:
       tag: ${{ github.ref_name }}
       version-file: SKILL.md
